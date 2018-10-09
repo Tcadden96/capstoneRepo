@@ -1,5 +1,6 @@
 #test
-<<<<<<< HEAD
+
 updated directly in master
-=======
->>>>>>> local
+
+updated localy
+
