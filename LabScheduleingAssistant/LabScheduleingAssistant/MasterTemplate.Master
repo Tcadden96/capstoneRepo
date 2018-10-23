@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterTemplate.master.cs" Inherits="LabScheduleingAssistant.MasterTemplate" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Lab Scheduleing Assistant</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/customStyle.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <div id="navBar">
+                <ul>
+                    <li><a href="#CalanderPage.aspx">Schedule</a></li>
+                    <li><a href="Messages.aspx">Messages</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="underNav">
+        <div class="row">
+            <div class="col-sm-4" id="siteHeader">
+                 <h1>Tom Cadden's Website</h1>
+            </div>
+            <div class="col-sm-4 login-page-logo">
+                <img class="login-page-logo-img" src="Images/transparentLogo.png" />
+            </div>
+        </div>
+        <div class="row">
+            <div id="contentHolder">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        Created by Capstone Group1
+    </div>
+</body>
+</html>

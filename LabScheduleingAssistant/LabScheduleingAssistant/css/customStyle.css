@@ -1,0 +1,127 @@
+﻿body, html {
+    height: 100%;
+    width:100%;
+    margin: 0;
+}
+
+
+h1{
+    color:white;
+}
+h2 {
+    margin-top: 0px;
+}
+li{
+    color: whitesmoke;
+    vertical-align:central;
+    text-align:center;
+    float:left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+        display: block;
+        color: whitesmoke;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+}
+li a:hover {
+        background-color: #a1011f;
+}
+a{
+    color:whitesmoke;
+    text-align:center
+}
+#underNav{
+    padding:20px;
+}
+#navBar {
+    width: 100%;
+    height:40px;
+    text-align:center;
+    color: white;
+    background-color: #9d1b33;
+    margin:0 auto;
+    padding-left:20px;
+    float:none;
+}
+#contentHolder{
+    border-radius: 2%;
+    padding:20px;
+    background-color:#ff8d50;
+    width:92%;
+    margin:0 auto;
+    float:none;
+    height:100vh;
+    color:whitesmoke;
+    border:outset #b93714 2px;
+    
+}
+#footer{
+    background-color:#110809;
+    width:100%;
+    height:30px;
+    margin:-20px;
+    padding:0;
+    text-align:center;
+    color:whitesmoke
+}
+.bg {
+    /* The image used */
+    background-image: url("../img/serc.jpg");
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-label{
+    margin-top:5px;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+.login-row{
+    position: relative;
+    top: 10vh;
+}
+.centered-col{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.card{
+    border-radius:10%;
+    border:solid 1px black;
+    padding: 20px;
+    background-color:beige;
+}
+.login-page-logo{
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+    text-align:center;
+    padding-top:20px;
+}
+.login-page-logo-img {
+    display:block;
+    margin:0 auto;
+    width: 200px;
+    height: 200px;
+    float: none;
+}
+.btn-primary{
+    background-color:darkred;
+    padding: 10px;
+}
+.btn-primary:hover {
+    background-color: darkred !important;
+}
