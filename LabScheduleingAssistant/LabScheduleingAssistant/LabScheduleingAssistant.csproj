@@ -88,6 +88,7 @@
     <Content Include="img\serc.jpg" />
     <Content Include="img\transparentLogo.png" />
     <Content Include="Login.aspx" />
+    <Content Include="ShiftTrade.aspx" />
     <Content Include="Web.config" />
     <Content Include="CalanderPage.aspx" />
   </ItemGroup>
@@ -113,6 +114,13 @@
     </Compile>
     <Compile Include="CalanderPage.aspx.designer.cs">
       <DependentUpon>CalanderPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShiftTrade.aspx.cs">
+      <DependentUpon>ShiftTrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShiftTrade.aspx.designer.cs">
+      <DependentUpon>ShiftTrade.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
