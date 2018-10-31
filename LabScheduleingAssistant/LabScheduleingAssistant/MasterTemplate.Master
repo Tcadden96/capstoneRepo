@@ -16,7 +16,7 @@
             <div id="navBar">
                 <ul>
                     <li><a href="#CalanderPage.aspx">Schedule</a></li>
-                    <li><a href="Messages.aspx">Messages</a></li>
+                    <li><a href="Messenger.aspx">Messages</a></li>
                     <li></li>
                 </ul>
             </div>
