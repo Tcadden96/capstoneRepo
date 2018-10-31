@@ -1,22 +1,29 @@
-﻿body, html {
-    height: 100%;
-    width:100%;
+﻿body{
+    position: relative;
     margin: 0;
+    min-height: 100%;
 }
 
-
-h1{
-    color:white;
+html {
+    min-height: 100%;
 }
+
+h1 {
+    color: #9d1b33;
+}
+
 h2 {
     margin-top: 0px;
+    color: #9d1b33;
 }
-li{
+
+li {
     color: whitesmoke;
-    vertical-align:central;
-    text-align:center;
-    float:left;
+    vertical-align: central;
+    text-align: center;
+    float: left;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,52 +32,75 @@ ul {
 }
 
 li a {
-        display: block;
-        color: whitesmoke;
-        text-align: center;
-        padding: 10px;
-        text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
 }
-li a:hover {
-        background-color: #a1011f;
+
+    li a:hover {
+        background-color: #580313;
+    }
+
+a {
+    color: whitesmoke;
+    text-align: center
 }
-a{
-    color:whitesmoke;
-    text-align:center
+table{
+    border: solid 1px darkgray;
+    width:100%;
+    text-align:center;
 }
-#underNav{
-    padding:20px;
+td {
+    border: solid 1px darkgray;
 }
+th{
+    border:solid 1px darkgray;
+    text-align:center;
+}
+
+#container {
+    min-height: 100vh;
+}
+
+#underNav {
+    padding: 20px;
+}
+
 #navBar {
     width: 100%;
-    height:40px;
-    text-align:center;
+    height: 40px;
+    text-align: center;
     color: white;
     background-color: #9d1b33;
-    margin:0 auto;
-    padding-left:20px;
-    float:none;
+    margin: 0 auto;
+    padding-left: 20px;
+    float: none;
 }
-#contentHolder{
-    border-radius: 2%;
-    padding:20px;
-    background-color:#ff8d50;
-    width:92%;
-    margin:0 auto;
-    float:none;
-    height:100vh;
-    color:whitesmoke;
-    border:outset #b93714 2px;
-    
+
+#contentHolder {
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+    color: #9d1b33;
 }
-#footer{
-    background-color:#110809;
-    width:100%;
-    height:30px;
-    margin:-20px;
-    padding:0;
-    text-align:center;
-    color:whitesmoke
+
+#footer {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 30px;
+    margin-top: 40px;
+    padding-top: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: whitesmoke
 }
 .bg {
     /* The image used */
@@ -125,3 +155,57 @@ a{
 .btn-primary:hover {
     background-color: darkred !important;
 }
+
+#wrap {
+    width: 80%;
+    display:inline-block;
+    
+}
+
+#external-events {
+    float: left;
+    width: 150px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+    #external-events h4 {
+        font-size: 16px;
+        margin-top: 0;
+        padding-top: 1em;
+    }
+
+.external-event { /* try to mimick the look of a real event */
+    margin: 10px 0;
+    padding: 2px 4px;
+    background: #3366CC;
+    color: #fff;
+    font-size: .85em;
+    cursor: pointer;
+}
+
+#external-events p {
+    margin: 1.5em 0;
+    font-size: 11px;
+    color: #666;
+}
+
+#external-events p input {
+    margin: 0;
+    vertical-align: middle;
+}
+
+#calendar {
+    float: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px #C3C3C3;
+}
+#tracker{
+    display:inline-block;
+    vertical-align:top;
+    width: 19%;
+    height: 100%;
+    background-color:lightgray;
+}

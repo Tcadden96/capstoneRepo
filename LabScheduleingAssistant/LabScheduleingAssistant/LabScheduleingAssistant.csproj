@@ -66,6 +66,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\fullcalendar.css" />
+    <Content Include="css\fullcalendar.min.css" />
+    <Content Include="css\fullcalendar.print.css" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\fullcalendar.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-ui.custom.min.js" />
+    <Content Include="js\npm.js" />
     <Content Include="MasterTemplate.Master" />
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap-theme.min.css.map" />
@@ -88,6 +97,7 @@
     <Content Include="img\serc.jpg" />
     <Content Include="img\transparentLogo.png" />
     <Content Include="Login.aspx" />
+    <Content Include="Messaging.aspx" />
     <Content Include="ShiftTrade.aspx" />
     <Content Include="Web.config" />
     <Content Include="CalanderPage.aspx" />
@@ -107,6 +117,13 @@
     <Compile Include="MasterTemplate.Master.designer.cs">
       <DependentUpon>MasterTemplate.Master</DependentUpon>
     </Compile>
+    <Compile Include="Messaging.aspx.cs">
+      <DependentUpon>Messaging.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messaging.aspx.designer.cs">
+      <DependentUpon>Messaging.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CalanderPage.aspx.cs">
       <DependentUpon>CalanderPage.aspx</DependentUpon>
@@ -123,9 +140,7 @@
       <DependentUpon>ShiftTrade.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
