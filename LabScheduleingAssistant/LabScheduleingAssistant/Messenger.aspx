@@ -7,7 +7,7 @@
     <form id="form1" runat="server">
         <div class="ChatTable">
         <asp:Table ID="tblChat" runat="server" Width="1118px" Height="189px">
-              
+     <%--  //chat    --%>    
 
             <asp:TableHeaderRow>
                 <asp:TableHeaderCell>LIVE  CHAT</asp:TableHeaderCell>
