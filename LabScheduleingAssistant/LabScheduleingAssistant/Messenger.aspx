@@ -10,7 +10,7 @@
      <%--  //chat    --%>    
 
             <asp:TableHeaderRow>
-                <asp:TableHeaderCell>LIVE  CHAT</asp:TableHeaderCell>
+                <asp:TableHeaderCell Style="width:100%;">LIVE CHAT</asp:TableHeaderCell>
             </asp:TableHeaderRow>
                     
            
@@ -39,8 +39,11 @@
             </asp:TableRow>
             <asp:TableFooterRow>
                 <asp:TableCell>
-                    <asp:TextBox ID="txtChatInput" runat="server" Width="400px" TextMode="MultiLine" Rows="5" style="overflow:scroll"></asp:TextBox>
-                     <asp:Button ID="btnEnterChatInput" runat="server" Text="Send" />
+                    <asp:TextBox ID="txtChatInput" runat="server" Width="400px" TextMode="MultiLine" Rows="5" style="overflow:scroll; width:100%"></asp:TextBox>
+                     
+                </asp:TableCell>
+                <asp:TableCell>
+                    <asp:Button ID="btnEnterChatInput" runat="server" Text="Send" style="width:100%; height:100%"/>
                 </asp:TableCell>
                 
                    
