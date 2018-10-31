@@ -89,6 +89,7 @@
     <Content Include="img\transparentLogo.png" />
     <Content Include="Login.aspx" />
     <Content Include="Messenger.aspx" />
+    <Content Include="messengerStyles.css" />
     <Content Include="Web.config" />
     <Content Include="CalanderPage.aspx" />
   </ItemGroup>
