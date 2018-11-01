@@ -17,28 +17,24 @@
 </head>
 <body>
     <div id="container">
-        <div class="row">
-            <div class="col">
-                <div id="navBar">
-                    <ul>
-                        <li><a href="CalanderPage.aspx">Schedule</a></li>
-                        <li><a href="Messager.aspx">Messages</a></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="row header">
+           <img src="img/transparentLogo.png" style="height:50px;width:50px;margin:5px; display: inline-block"/>
+            <h1>Lab Scheduling System</h1>
         </div>
         <div id="underNav">
-            <div class="row">
-                <div class="col-sm-4" id="siteHeader">
-                     <h1>Tom Cadden's Website</h1>
+            <div class="row" style="height:100%">
+                <div class="col-sm-2" id="nav">
+                    <div id="navBar">
+                        <ul>
+                            <li><a href="CalanderPage.aspx">Schedule</a></li>
+                            <li><a href="Messenger.aspx">Messages</a></li>
+                            <li><a href="ViewAvailableShifts.aspx">Available Shifts</a></li>
+                            <li><a href="Downloadables.aspx">Downloads</a></li>
+                        </ul>
+                    </div>     
                 </div>
-                <div class="col-sm-4 login-page-logo">
-                    <img class="login-page-logo-img" src="img/transparentLogo.png" />
-                </div>
-            </div>
-            <div class="row">
-                <div id="contentHolder">
+            
+                <div class="col-sm-8" id="contentPlaceHolder1">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
                     </asp:ContentPlaceHolder>
                 </div>

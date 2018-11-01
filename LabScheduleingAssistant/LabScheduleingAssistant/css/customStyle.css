@@ -2,6 +2,7 @@
     position: relative;
     margin: 0;
     min-height: 100%;
+    padding:0;
 }
 
 html {
@@ -10,6 +11,8 @@ html {
 
 h1 {
     color: #9d1b33;
+    display:inline-block;
+    margin-top:0;
 }
 
 h2 {
@@ -17,36 +20,27 @@ h2 {
     color: #9d1b33;
 }
 
-li {
-    color: whitesmoke;
-    vertical-align: central;
-    text-align: center;
-    float: left;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
+    background-color: #1e1e1e;
+    color:white;
 }
 
 li a {
     display: block;
-    color: whitesmoke;
-    text-align: center;
-    padding: 10px;
+    color: white;
+    padding: 8px 16px;
     text-decoration: none;
 }
 
+    /* Change the link color on hover */
     li a:hover {
-        background-color: #580313;
+        background-color: black;
+        color: white;
     }
-
-a {
-    color: whitesmoke;
-    text-align: center
-}
 table{
     border: solid 1px darkgray;
     width:100%;
@@ -64,20 +58,15 @@ th{
     min-height: 100vh;
 }
 
-#underNav {
-    padding: 20px;
+#contentPlaceHolder1{
+    padding:10px;
 }
 
-#navBar {
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    color: white;
-    background-color: #9d1b33;
-    margin: 0 auto;
-    padding-left: 20px;
-    float: none;
+#nav{
+    height:100vh;
+    background-color:#1e1e1e
 }
+
 
 #contentHolder {
     padding: 20px;
@@ -101,6 +90,12 @@ th{
     left: 0;
     text-align: center;
     color: whitesmoke
+}
+.header{
+    width:100%;
+    background-color:#1e1e1e;
+    height:60px;
+    margin:0;
 }
 .bg {
     /* The image used */

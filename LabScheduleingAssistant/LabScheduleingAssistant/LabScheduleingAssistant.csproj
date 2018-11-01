@@ -69,6 +69,7 @@
     <Content Include="css\fullcalendar.css" />
     <Content Include="css\fullcalendar.min.css" />
     <Content Include="css\fullcalendar.print.css" />
+    <Content Include="Downloadables.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\fullcalendar.js" />
@@ -97,14 +98,20 @@
     <Content Include="img\serc.jpg" />
     <Content Include="img\transparentLogo.png" />
     <Content Include="Login.aspx" />
-    <Content Include="Messaging.aspx" />
     <Content Include="Messenger.aspx" />
     <Content Include="messengerStyles.css" />
-    <Content Include="ShiftTrade.aspx" />
+    <Content Include="ViewAvailableShifts.aspx" />
     <Content Include="Web.config" />
     <Content Include="CalanderPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Downloadables.aspx.cs">
+      <DependentUpon>Downloadables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Downloadables.aspx.designer.cs">
+      <DependentUpon>Downloadables.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,13 +125,6 @@
     </Compile>
     <Compile Include="MasterTemplate.Master.designer.cs">
       <DependentUpon>MasterTemplate.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Messaging.aspx.cs">
-      <DependentUpon>Messaging.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Messaging.aspx.designer.cs">
-      <DependentUpon>Messaging.aspx</DependentUpon>
     </Compile>
     <Compile Include="Messenger.aspx.cs">
       <DependentUpon>Messenger.aspx</DependentUpon>
@@ -141,12 +141,12 @@
     <Compile Include="CalanderPage.aspx.designer.cs">
       <DependentUpon>CalanderPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ShiftTrade.aspx.cs">
-      <DependentUpon>ShiftTrade.aspx</DependentUpon>
+    <Compile Include="ViewAvailableShifts.aspx.cs">
+      <DependentUpon>ViewAvailableShifts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ShiftTrade.aspx.designer.cs">
-      <DependentUpon>ShiftTrade.aspx</DependentUpon>
+    <Compile Include="ViewAvailableShifts.aspx.designer.cs">
+      <DependentUpon>ViewAvailableShifts.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
