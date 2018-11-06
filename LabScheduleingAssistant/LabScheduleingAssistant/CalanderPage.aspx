@@ -191,27 +191,31 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id='wrap'>
-        <div id='calendar'></div>
-        <div style='clear:both'></div>
+      <div class="col-sm-8">
+        <div id='wrap'>
+            <div id='calendar'></div>
+            <div style='clear:both'></div>
+        </div>
     </div>
-    <div id="tracker">
-         <form id="login" runat="server" class="form-signin">
-            <asp:Table runat="server" class="time-tracker">
-                <asp:TableHeaderRow >
-                    <asp:TableHeaderCell>Name</asp:TableHeaderCell>
-                    <asp:TableHeaderCell>Hours</asp:TableHeaderCell>
-                </asp:TableHeaderRow >
-                <asp:TableRow>
-                    <asp:TableCell>Tom</asp:TableCell>
-                    <asp:TableCell>4</asp:TableCell>
-                </asp:TableRow>
-                <asp:TableRow>
-                    <asp:TableCell>Leysan</asp:TableCell>
-                    <asp:TableCell>3</asp:TableCell>
-                </asp:TableRow>
-            </asp:Table>
-         </form>
+    <div class="col-sm-4">
+        <div id="tracker">
+             <form id="login" runat="server" class="form-signin">
+                <asp:Table runat="server" class="tracker-table table">
+                    <asp:TableHeaderRow >
+                        <asp:TableHeaderCell>Name</asp:TableHeaderCell>
+                        <asp:TableHeaderCell>Hours</asp:TableHeaderCell>
+                    </asp:TableHeaderRow >
+                    <asp:TableRow>
+                        <asp:TableCell>Tom</asp:TableCell>
+                        <asp:TableCell>4</asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow>
+                        <asp:TableCell>Leysan</asp:TableCell>
+                        <asp:TableCell>3</asp:TableCell>
+                    </asp:TableRow>
+                </asp:Table>
+             </form>
+        </div>
     </div>
 
 

@@ -9,7 +9,7 @@
     <link href="css/customStyle.css" rel="stylesheet">
 </head>
 <body>
-    <div class="bg">
+    <div id="bg">
         <div class="row">
             <div class="col-sm-4 login-page-logo">
                 <img class="login-page-logo-img" src="img/transparentLogo.png" />

@@ -16,15 +16,15 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <div id="container">
-        <div class="row header">
-           <img src="img/transparentLogo.png" style="height:50px;width:50px;margin:5px; display: inline-block"/>
-            <h1>Lab Scheduling System</h1>
+    <div id="content-container">
+        <div class="row" id="header">
+            <img src="img/transparentLogo.png" style="height:50px;width:50px;margin:5px; display: inline-block"/>
+            <h1 style="padding-top:8px;">Lab Scheduling System</h1>
         </div>
-        <div id="underNav">
+        <div id="underHeader">
             <div class="row" style="height:100%">
-                <div class="col-sm-2" id="nav">
-                    <div id="navBar">
+                <div class="col-sm-2" id="nav-container">
+                    <div id="nav-bar">
                         <ul>
                             <li><a href="CalanderPage.aspx">Schedule</a></li>
                             <li><a href="Messenger.aspx">Messages</a></li>
@@ -34,7 +34,7 @@
                     </div>     
                 </div>
             
-                <div class="col-sm-8" id="contentPlaceHolder1">
+                <div class="col-sm-10" id="content-page-holder">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
                     </asp:ContentPlaceHolder>
                 </div>
