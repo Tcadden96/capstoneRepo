@@ -18,8 +18,8 @@
 <body>
     <div id="content-container">
         <div class="row" id="header">
-            <img src="img/transparentLogo.png" style="height:50px;width:50px;margin:5px; display: inline-block"/>
-            <h1 style="padding-top:8px;">Lab Scheduling System</h1>
+            <img src="img/transparentLogo.png" style="height:50px;width:50px;margin:5px; position:absolute; display: inline-block"/>
+            <h1 style="padding-top:12px;padding-left:65px;">Lab Scheduling System</h1>
         </div>
         <div id="underHeader">
             <div class="row" style="height:100%">
@@ -28,7 +28,7 @@
                         <ul>
                             <li><a href="CalanderPage.aspx">Schedule</a></li>
                             <li><a href="Messenger.aspx">Messages</a></li>
-                            <li><a href="ViewAvailableShifts.aspx">Available Shifts</a></li>
+                            <li><a href="Uploads.aspx">Upload Class Schedule</a></li>
                             <li><a href="Downloadables.aspx">Downloads</a></li>
                         </ul>
                     </div>     

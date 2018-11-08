@@ -146,6 +146,12 @@ li a {
 .btn-primary:hover {
     background-color: darkred !important;
 }
+.time-warning{
+    background-color:rgba(252, 156, 5, 0.70);
+}
+.time-critical{
+    background-color:rgba(255, 0, 0, 0.70);
+}
 
 #wrap {
     width: 100%;
@@ -174,6 +180,7 @@ li a {
     font-size: .85em;
     cursor: pointer;
 }
+
 
 #external-events p {
     margin: 1.5em 0;

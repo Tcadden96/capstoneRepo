@@ -205,13 +205,21 @@
                         <asp:TableHeaderCell>Name</asp:TableHeaderCell>
                         <asp:TableHeaderCell>Hours</asp:TableHeaderCell>
                     </asp:TableHeaderRow >
-                    <asp:TableRow>
+                    <asp:TableRow CssClass="time-critical">
                         <asp:TableCell>Tom</asp:TableCell>
-                        <asp:TableCell>4</asp:TableCell>
+                        <asp:TableCell>19</asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow CssClass="time-warning">
+                        <asp:TableCell>Leysan</asp:TableCell>
+                        <asp:TableCell>14</asp:TableCell>
+                    </asp:TableRow>
+                    <asp:TableRow CssClass="time-warning">
+                        <asp:TableCell>Manny</asp:TableCell>
+                        <asp:TableCell>14</asp:TableCell>
                     </asp:TableRow>
                     <asp:TableRow>
-                        <asp:TableCell>Leysan</asp:TableCell>
-                        <asp:TableCell>3</asp:TableCell>
+                        <asp:TableCell>Teddy</asp:TableCell>
+                        <asp:TableCell>8</asp:TableCell>
                     </asp:TableRow>
                 </asp:Table>
              </form>

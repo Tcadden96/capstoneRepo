@@ -840,7 +840,7 @@ function Header(calendar, options) {
 					}
 				});
 				if (prevButton) {
-					prevButton.addClass(tm + '-corner-right');
+					prevButton.addClass(tm + '-corner-right hello');
 				}
 			});
 		}
