@@ -69,7 +69,9 @@
     <Content Include="css\fullcalendar.css" />
     <Content Include="css\fullcalendar.min.css" />
     <Content Include="css\fullcalendar.print.css" />
+    <Content Include="css\scheduleUpload.css" />
     <Content Include="Downloadables.aspx" />
+    <Content Include="Employee.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\fullcalendar.js" />
@@ -111,6 +113,13 @@
     </Compile>
     <Compile Include="Downloadables.aspx.designer.cs">
       <DependentUpon>Downloadables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.aspx.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee.aspx.designer.cs">
+      <DependentUpon>Employee.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
