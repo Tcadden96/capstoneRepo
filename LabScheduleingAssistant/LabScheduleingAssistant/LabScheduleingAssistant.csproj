@@ -72,6 +72,7 @@
     <Content Include="css\scheduleUpload.css" />
     <Content Include="Downloadables.aspx" />
     <Content Include="Employee.aspx" />
+    <Content Include="img\transparentLogo-cherry.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\fullcalendar.js" />

@@ -5,37 +5,43 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Lab Scheduleing Assistant</title>
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="css/customStyle.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="css/calendar.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link href="css/customStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/calendar.css" />
 
 
-   
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <div id="content-container">
         <div class="row" id="header">
-            <img src="img/transparentLogo.png" style="height:50px;width:50px;margin:5px; position:absolute; display: inline-block"/>
-            <h1 style="padding-top:12px;padding-left:65px;">Lab Scheduling System</h1>
+            <div class="col-sm-10">
+                <img src="img/transparentLogo.png" style="height: 55px; width: 50px; margin: 5px; position: absolute; display: inline-block; margin-bottom: 5px;" />
+                <h1 style="padding-left: 65px;">Lab Scheduling System</h1>
+            </div>
+            <div id="user-settings" class="col-sm-2 active-user" style="padding-right: 10px;">
+                <button class="btn active-user-btn" type="button">Marah Minetola</button>
+            </div>
         </div>
-        <div id="underHeader">
-            <div class="row" style="height:100%">
-                <div class="col-sm-2" id="nav-container">
-                    <div id="nav-bar">
-                        <ul>
-                            <li><a href="CalanderPage.aspx">Schedule</a></li>
-                            <li><a href="Messenger.aspx">Messages</a></li>
-                            <li><a href="Uploads.aspx">Upload Class Schedule</a></li>
-                            <li><a href="Downloadables.aspx">Downloads</a></li>
-                        </ul>
-                    </div>     
-                </div>
-            
-                <div class="col-sm-10" id="content-page-holder">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+
+        <div id="underHeader" class="row" >
+
+            <div class="sidebar" id="nav-container">
+                <ul>
+                    <li><a href="CalanderPage.aspx"><i class="fas fa-calendar-alt fa-lg"></i>Schedule</a></li>
+                    <li><a href="Messenger.aspx"><i class="far fa-envelope-open fa-lg"></i>Messages</a></li>
+                    <li><a href="Employee.aspx"><i class="fas fa-file-upload fa-lg"></i>Upload Class Schedule</a></li>
+                    <li><a href="Downloadables.aspx"><i class="fas fa-file-download fa-lg"></i>Downloads</a></li>
+                </ul>
+            </div>
+
+            <div class="col-9">
+                <div class="container-fluid" id="content-page-holder">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
             </div>
