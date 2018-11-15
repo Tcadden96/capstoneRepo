@@ -7,7 +7,7 @@
     <form id="form1" runat="server">
     <h4 style="text-align:center">Weekly Schedules</h4>            
 <p style="text-align:center">
-            <asp:Button ID="btnLab1" runat="server" Text="Lab 1" ForeColor="Black" Width="100px" />
+            <asp:Button ID="btnLab1" runat="server" Text="Lab 1" ForeColor="Black" Width="100px" OnClick="btnLab1_Click" />
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnLab2" runat="server" ForeColor="Black" Text="Lab 2" width="100px" />
 &nbsp;&nbsp;&nbsp;
@@ -19,18 +19,6 @@
     </p>
         <p style="text-align:center">
             &nbsp;</p>
-        <h4 style="text-align:center">Yearly Audit Data</h4>
-        <p style="text-align:center">
-            <asp:Button ID="btn2014" runat="server" Text="2014" ForeColor="Black" Width="100px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btn2015" runat="server" ForeColor="Black" Text="2015" width="100px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btn2016" runat="server" ForeColor="Black" Text="2016" width="100px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btn2017" runat="server" ForeColor="Black" Text="2017" width="100px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btn2018" runat="server" ForeColor="Black" Text="2018" width="100px" />
-            </p>
             <br />
         
 
