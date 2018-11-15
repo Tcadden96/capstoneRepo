@@ -70,7 +70,33 @@ namespace LabScheduleingAssistant
                 Response.Close();
             }
             */
+
+            ScriptManager.RegisterStartupScript(this, GetType(), "ServerControlScript", "<script>$('#DownloadDisplay').modal('show');</script>", false);
+
         }
-        
+
+        protected void btnLab2_Click(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(this, GetType(), "ServerControlScript", "<script>$('#DownloadDisplay').modal('show');</script>", false);
+
+        }
+
+        protected void btnLab3_Click(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(this, GetType(), "ServerControlScript", "<script>$('#DownloadDisplay').modal('show');</script>", false);
+
+        }
+
+        protected void btnLab4_Click(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(this, GetType(), "ServerControlScript", "<script>$('#DownloadDisplay').modal('show');</script>", false);
+
+        }
+
+        protected void btnLab5_Click(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(this, GetType(), "ServerControlScript", "<script>$('#DownloadDisplay').modal('show');</script>", false);
+
+        }
     }
 }
