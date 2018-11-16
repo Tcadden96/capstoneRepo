@@ -66,12 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPage.aspx" />
     <Content Include="css\fullcalendar.css" />
     <Content Include="css\fullcalendar.min.css" />
     <Content Include="css\fullcalendar.print.css" />
     <Content Include="css\scheduleUpload.css" />
     <Content Include="Downloadables.aspx" />
     <Content Include="Employee.aspx" />
+    <Content Include="img\transparentLogo-cherry.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\fullcalendar.js" />
@@ -107,6 +109,13 @@
     <Content Include="CalanderPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Downloadables.aspx.cs">
       <DependentUpon>Downloadables.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

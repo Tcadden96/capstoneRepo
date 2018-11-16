@@ -190,42 +190,62 @@
 
 
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <div class="col-sm-8">
-        <div id='wrap'>
-            <div id='calendar'></div>
-            <div style='clear:both'></div>
+
+    <div class="row">
+        <div class="col-8">
+            <div class="row" style="margin-bottom:10px">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <button>Lab 1</button></div>
+                <div class="col-2">
+                    <button>Lab 2</button></div>
+                <div class="col-2">
+                    <button>Lab 3</button></div>
+                <div class="col-2">
+                    <button>Lab 4</button></div>
+                <div class="col-2">
+                    <button>Lab 5</button></div>
+            </div>
+            <div class="row">
+                <div id='wrap'>
+                    <div id='calendar'></div>
+                    <div style='clear: both'></div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="col-sm-4">
-        <div id="tracker">
-             <form id="login" runat="server" class="form-signin">
-                <asp:Table runat="server" class="tracker-table table">
-                    <asp:TableHeaderRow >
-                        <asp:TableHeaderCell>Name</asp:TableHeaderCell>
-                        <asp:TableHeaderCell>Hours</asp:TableHeaderCell>
-                    </asp:TableHeaderRow >
-                    <asp:TableRow CssClass="time-critical">
-                        <asp:TableCell>Tom</asp:TableCell>
-                        <asp:TableCell>19</asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow CssClass="time-warning">
-                        <asp:TableCell>Leysan</asp:TableCell>
-                        <asp:TableCell>14</asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow CssClass="time-warning">
-                        <asp:TableCell>Manny</asp:TableCell>
-                        <asp:TableCell>14</asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell>Teddy</asp:TableCell>
-                        <asp:TableCell>8</asp:TableCell>
-                    </asp:TableRow>
-                </asp:Table>
-             </form>
+        <div class="col-4" style="float:right;">
+            <div id="tracker">
+                <form id="login" runat="server" class="form-signin">
+                    <asp:Table runat="server" class="tracker-table table">
+                        <asp:TableHeaderRow>
+                            <asp:TableHeaderCell>Name <i class="fas fa-calandar-alt"></i></asp:TableHeaderCell>
+                            <asp:TableHeaderCell>Hours</asp:TableHeaderCell>
+                        </asp:TableHeaderRow>
+                        <asp:TableRow CssClass="time-critical">
+                            <asp:TableCell>Tom</asp:TableCell>
+                            <asp:TableCell>19</asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow CssClass="time-warning">
+                            <asp:TableCell>Leysan</asp:TableCell>
+                            <asp:TableCell>14</asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow CssClass="time-warning">
+                            <asp:TableCell>Manny</asp:TableCell>
+                            <asp:TableCell>14</asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow>
+                            <asp:TableCell>Teddy</asp:TableCell>
+                            <asp:TableCell>8</asp:TableCell>
+                        </asp:TableRow>
+                    </asp:Table>
+                </form>
+            </div>
         </div>
+
     </div>
 
 
-    
+
 </asp:Content>
