@@ -24,18 +24,27 @@
                 <h1 style="padding-left: 65px;">Lab Scheduling System</h1>
             </div>
             <div id="user-settings" class="col-sm-2 active-user" style="padding-right: 10px;">
-                <button class="btn active-user-btn" type="button">Marah Minetola</button>
+                <div class="dropdown">
+                    <button class="btn active-user-btn dropbtn" type="button">Marah Minetola</button>
+                    <div class="dropdown-content">
+                        <a href="AdminPage.aspx">Admin Controls</a>
+                        <a href="#">Log out</a>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div id="underHeader" class="row" >
 
-            <div class="sidebar" id="nav-container">
+            <div class="col-2" id="nav-container">
                 <ul>
                     <li><a href="CalanderPage.aspx"><i class="fas fa-calendar-alt fa-lg"></i>Schedule</a></li>
                     <li><a href="Messenger.aspx"><i class="far fa-envelope-open fa-lg"></i>Messages</a></li>
                     <li><a href="Employee.aspx"><i class="fas fa-file-upload fa-lg"></i>Upload Class Schedule</a></li>
                     <li><a href="Downloadables.aspx"><i class="fas fa-file-download fa-lg"></i>Downloads</a></li>
+                </ul>
+                <ul class="bottom-sidebar">
+                    <li><a href="#"><i class=""></i>Log Out</a></li>
                 </ul>
             </div>
 

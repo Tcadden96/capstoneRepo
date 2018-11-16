@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPage.aspx" />
     <Content Include="css\fullcalendar.css" />
     <Content Include="css\fullcalendar.min.css" />
     <Content Include="css\fullcalendar.print.css" />
@@ -108,6 +109,13 @@
     <Content Include="CalanderPage.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Downloadables.aspx.cs">
       <DependentUpon>Downloadables.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
