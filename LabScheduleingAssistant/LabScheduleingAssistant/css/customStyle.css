@@ -76,14 +76,15 @@ li a {
 
 #nav-container {
     background-color: #222222;
-    padding:0;
-    min-height:100vh;
-
+    padding: 0;
+    min-height: 100vh;
+    min-width: 240px;
 }
 #nav-bar{
     /*padding-left:10px;*/
     margin-right:10px;
     width:100%;
+    
     font-size:large;
 
 }
@@ -175,12 +176,27 @@ li a {
 }
 .time-critical{
     background-color:rgba(255, 0, 0, 0.70);
-}
-
+}   
 #wrap {
     width: 100%;
     display:inline-block;
     
+}
+.time-selector{
+    border:solid 1px gray;
+}
+.true-false {
+    background: red;
+    width: 100%;
+    border: 0;
+    border-style: None;
+    background-image: none;
+    background-position-x: 0%;
+    background-position-y: 0%;
+
+}
+.upload-table{
+    width:100%;
 }
 
 #external-events {

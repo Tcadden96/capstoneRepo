@@ -86,6 +86,9 @@
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile2.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -103,6 +106,8 @@
     <Content Include="img\transparentLogo.png" />
     <Content Include="Login.aspx" />
     <Content Include="Messenger.aspx" />
+    <Content Include="Messenger2.aspx" />
+    <Content Include="MESSENGER2sTYLES.css" />
     <Content Include="messengerStyles.css" />
     <Content Include="ViewAvailableShifts.aspx" />
     <Content Include="Web.config" />
@@ -150,6 +155,13 @@
     </Compile>
     <Compile Include="Messenger.aspx.designer.cs">
       <DependentUpon>Messenger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Messenger2.aspx.cs">
+      <DependentUpon>Messenger2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messenger2.aspx.designer.cs">
+      <DependentUpon>Messenger2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CalanderPage.aspx.cs">

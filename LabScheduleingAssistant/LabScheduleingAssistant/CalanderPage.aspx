@@ -216,8 +216,9 @@
             </div>
         </div>
         <div class="col-4" style="float:right;">
-            <div id="tracker">
-                <form id="login" runat="server" class="form-signin">
+            <form id="login" runat="server" class="form-signin">
+                <div id="tracker">
+
                     <asp:Table runat="server" class="tracker-table table">
                         <asp:TableHeaderRow>
                             <asp:TableHeaderCell>Name <i class="fas fa-calandar-alt"></i></asp:TableHeaderCell>
@@ -240,8 +241,33 @@
                             <asp:TableCell>8</asp:TableCell>
                         </asp:TableRow>
                     </asp:Table>
-                </form>
-            </div>
+
+                </div>
+
+                <div id="new-schedule" class="row col-12" style="border:solid black 1px;">
+                    <br />
+                    <h2>New Schedule</h2>
+                    <div class="col-5">
+                        <asp:Label runat="server">Start Date</asp:Label>
+                        <asp:TextBox runat="server" type="date" Width="100%"></asp:TextBox>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-5">
+                        <asp:Label runat="server">End Date</asp:Label>
+                        <asp:TextBox runat="server" type="date" Width="100%"></asp:TextBox>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <div class="col-1"></div>
+                    <div class="col-6" style="padding-left:15%">
+                        <asp:Button runat="server" Text="Generate Weekly Schedule" />
+                        <br />
+                        <br />
+                        
+                    </div>
+                </div>
+            </form>
         </div>
 
     </div>
